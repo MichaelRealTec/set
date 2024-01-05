@@ -9,8 +9,9 @@ public class Program {
 		Set<String> set = new HashSet<>();
 		
 		set.add("TV");
+		set.add("Tablet"); // Não garante a ordem na impressão
 		set.add("Notebook");
-		set.add("Tablet");
+
 		
 		System.out.println(set.contains("Notebook"));
 		
