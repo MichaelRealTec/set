@@ -12,9 +12,10 @@ public class Program {
 		set.add("Tablet"); 
 		set.add("Notebook");
 		// TreeSet ordena os dados por ordem alfabetica
+		// TV esta na frente porque o V é maiusulo é tem prioridade o Maiusculo sobre o Minusculo
 		
-		System.out.println(set.contains("Notebook"));
-		
+		set.remove("Table");
+		// Remove "Table" da lista		
 		for(String p : set) {
 			System.out.println(p);
 		}
